@@ -5,6 +5,7 @@ import './App.css';
 import InputField from './components/InputField';
 import { Todo } from './Model';
 import TodoList from './components/TodoList';
+import Instructions from './components/Instructions';
 import { DragDropContext, DropResult } from 'react-beautiful-dnd';
 
 const App: React.FC = () => {
@@ -59,6 +60,7 @@ const App: React.FC = () => {
         <span className="Heading">Tick It</span>
         <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd}></InputField>
         <TodoList todos={todos} setTodos={setTodos} completedTodos={completedTodos} setCompletedTodos={setCompletedTodos}></TodoList>
+        <Instructions></Instructions>
       </div>
     </DragDropContext>
   );
