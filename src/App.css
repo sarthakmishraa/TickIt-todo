@@ -1,0 +1,184 @@
+/* App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #004E71;
+    font-family: "Sixtyfour";
+}
+
+.Heading {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 30px 0;
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .Heading{
+        margin: 15px 0;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .Todos {
+        width: 45%;
+    }
+}
+
+/* InputField styling */
+
+.Input {
+    display: flex;
+    width: 70%;
+    position: relative;
+    align-items: center;
+}
+
+.InputBox {
+    width: 70%;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 25px;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px white;
+}
+
+.InputBox:focus {
+    box-shadow: 0 0 10px 1000px #190B14;
+    outline: none;
+}
+
+.InputButton {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin: 12px;
+    border-radius: 10px;
+    border: #004E71;
+    font-size: 25px;
+    background-color: #004E71;
+    color: white;
+    transition: 0.2s all;
+    box-shadow: 0 0 10px white;
+}
+
+.InputButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.InputButton:active {
+    transform: scale(0.8);
+    box-shadow: 0 0 5px white;
+}
+
+/* TodoList styling */
+
+.container {
+    display: flex;
+    width: 75%;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Todos {
+    display: flex;
+    width: 47.5%;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+/* SingleTodo styling */
+
+.TodosHeading {
+    font-size: 30px;
+    color: darkblue;
+}
+
+.remove {
+    background-color: darkgrey;
+}
+
+.SingleTodo {
+    display: flex;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #86bdd6;
+    transition: 0.2s;
+}
+
+.SingleTodo:hover{
+    box-shadow: 0 0 5px black;
+    transform: scale(1.1);
+}
+
+.TodoText {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.TodoText:focus {
+    outline: none;
+}
+
+.Icon {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .Input {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .Todos {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 95%;
+        flex-direction: column;
+    }
+}
+
+.SingleTodoText {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.SingleTodoText:focus {
+    outline: none;
+}
+
+.dragactive {
+    background-color: gray;
+}
+
+.dragcomplete {
+    background-color: gray;
+}
+
+.drag {
+    box-shadow: 0 0 20px black;
+}
