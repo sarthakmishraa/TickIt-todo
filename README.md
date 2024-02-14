@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# Tick It - Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Access the project on this link
 
-## Available Scripts
+See [Tick It by Sarthak Mishra](https://tick-it.netlify.app/).
 
-In the project directory, you can run:
+Tick It is a simple todo application built using React.js, TypeScript, and CSS. It allows users to efficiently manage their tasks by organizing them into two sections: "Tasks Left" and "Tasks Done".
 
-### `npm start`
+## Snippets
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Tick It](https://github.com/sarthakmishraa/TickIt-todo/assets/56118819/da3e9f12-2c78-4ae7-9890-8d7a10d8ed44)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Easily add tasks to the "Tasks Left" section.**
 
-### `npm run build`
+- **Edit, delete, or mark tasks as completed.**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Intuitive drag-and-drop functionality for moving tasks between sections.**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Clean and minimalist user interface for enhanced usability.**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Use
 
-### `npm run eject`
+1. Visit the [Tick It App](https://tick-it.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Enter your task in the input field and press Enter.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Your task will appear in the "Tasks Left" section.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. To mark a task as completed, either click on it or drag it to the "Tasks Done" section.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. To edit or delete a task, hover over it and click on the respective action buttons.
+  
+6. Enjoy streamlined task management with Tick It!
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React.js](https://legacy.reactjs.org/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [TypeScript](https://www.typescriptlang.org/)
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+- [Netlify](https://www.netlify.com/)
+
+## Getting Started
+
+1. Clone the repository.
+
+   ```bash
+   git clone https://github.com/sarthakmishraa/TickIt-todo.git
+
